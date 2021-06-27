@@ -1,0 +1,43 @@
+@media only screen and (max-width : 350px){
+  header {
+    font-size: 1rem;
+    letter-spacing: normal;
+    height: auto;
+ }
+ #con {
+  margin-top:15px;
+} 
+#main_div {
+  height: 65vw;
+  width: 60vw;
+  padding: 5px;
+  margin: 10px;
+}
+#main_div p {
+  width: 100%;
+  font-size: 0.8rem;
+}
+#main_div h4 {
+  width: 100%;
+  font-size: 0.9rem;
+  height: 12vh;
+  overflow:auto;
+}
+#naming{
+  margin-top: 0px;  
+  height: 65%;
+}
+#container {
+  height: 12vh;
+  width: 100%;
+  margin:2px;
+}
+#play_div {
+  font-size: 25px;
+}
+.icon {
+  font-size: 17px;
+  cursor: pointer;
+}
+}
+

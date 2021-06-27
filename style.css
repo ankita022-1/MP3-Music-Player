@@ -1,0 +1,114 @@
+/* web fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body {
+    font-family: 'Pacifico', cursive;
+    background-image: url('/images/music1_img.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    color: white;
+}
+/* header */
+header {
+    position: sticky;
+    top: 0;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(28 25 25 / 50%);
+    color: white;
+    font-size: 23px;
+    letter-spacing: 0.2rem;
+}
+
+#con {
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+}
+
+#main_div {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(28 25 25 / 50%);
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+#naming {
+    height: 73px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+#main_div h4 {
+    background-color: rgba(247, 8, 8, 0.7);
+    border: 2px solid white;
+    height: 41px;
+    width: 96%;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 27px;
+    overflow: hidden;
+}
+#main_div p {    
+    width: 80%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+/* container */
+#container {
+    border: 2px solid white;
+    height: 46px;
+    width: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    background-color: rgba(32, 30, 30, 0.5);
+    position: relative;
+}
+#pre_div {
+    position: absolute;
+    left: 0;
+    padding: 8px;
+}
+#play_div {
+    font-size: 35px;
+}
+#play_div:hover {
+    font-size: 2rem;
+}
+#next_div {
+    position: absolute;
+    right: 0;
+    padding: 8px;
+}
+.icon {
+    font-size: 25px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.icon:hover {
+    font-size: 1.3rem;
+    color: gray;
+}
+.icon:active {
+    color: green;
+}

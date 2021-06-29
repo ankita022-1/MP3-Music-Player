@@ -41,8 +41,8 @@ play = () => {
     let temp = Number(num) + 1;
     // console.log("temp=" + temp);
 
-    if (temp == 2) {
-        body.setAttribute("style", "background-image:url('/images/music2_img.jpg');");
+    if (temp == 1) {
+        body.setAttribute("style", "background-image:url('/images/music1_img.jpg');");
     }else if (temp == 2) {
         body.setAttribute("style", "background-image:url('/images/music2_img.jpg');");
     }else if (temp == 3) {

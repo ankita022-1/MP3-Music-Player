@@ -42,13 +42,13 @@ play = () => {
     // console.log("temp=" + temp);
 
     if (temp == 1) {
-        body.setAttribute("style", "background-image:url('/images/music1_img.jpg');");
+        body.setAttribute("style", "background-image:url('images/music1_img.jpg');");
     }else if (temp == 2) {
-        body.setAttribute("style", "background-image:url('/images/music2_img.jpg');");
+        body.setAttribute("style", "background-image:url('images/music2_img.jpg');");
     }else if (temp == 3) {
-        body.setAttribute("style", "background-image:url('/images/music3_img.jpg');");
+        body.setAttribute("style", "background-image:url('images/music3_img.jpg');");
     }else{
-        body.setAttribute("style", "background-image:url('/images/music4_img.jpg');");
+        body.setAttribute("style", "background-image:url('images/music4_img.jpg');");
     }
 
     music.play();
